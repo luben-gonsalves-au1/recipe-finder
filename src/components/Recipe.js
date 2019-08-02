@@ -26,7 +26,7 @@ export default class RecipeList extends Component {
           </div>
           <div className="card-footer">
             <Link
-              to={`/recipes/$recipe_id}`}
+              to={`/recipes/${recipe_id}`}
               className="btn btn-primary text-capitalize"
             >
               details
