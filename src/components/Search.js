@@ -19,7 +19,7 @@ export default class Reciper extends Component {
                 <input
                   type="text"
                   name="search"
-                  className="form-control "
+                  className="form-control"
                   placeholder="chicken,onion,carrots"
                   value={search}
                   onChange={handleChange}
