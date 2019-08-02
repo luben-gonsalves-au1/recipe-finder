@@ -11,9 +11,9 @@ export default class Reciper extends Component {
               search recipes with{" "}
               <strong className="text-orange">Food2Fork</strong>
             </h1>
-            <div className="form mt-4">
+            <form className="mt-4">
               <label htmlFor="search" className="text-capitalize">
-                type recipes separated by comma
+                types recipes separated by comma
               </label>
               <div className="input-group">
                 <input
@@ -34,7 +34,7 @@ export default class Reciper extends Component {
                   </button>
                 </div>
               </div>
-            </div>
+            </form>
           </div>
         </div>
       </div>
